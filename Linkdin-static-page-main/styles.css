@@ -253,13 +253,13 @@
     display: flex;
     align-items: center;
     margin-top: 15px;
-    color: gray;
+    color: rgb(98, 94, 94);
     padding: 10px;
     cursor: pointer;
   }
   
   .inputOption:hover {
-    background-color: whitesmoke;
+    background-color: rgb(234, 229, 229);
     border-radius: 10px;
   }
   
@@ -307,6 +307,7 @@
   }
   .post__body > img {
     width: 100%;
+    margin: 5px;
   }
   .post__body_icons{
     list-style: none;
@@ -315,9 +316,9 @@
     align-items: center;
     color: var(--color-text-low-emphasis);
   }
-  .post__body_icons >p{
-    margin-left: 50%;
-    font-size: 15px;
+  .post__body_icons > p{
+    margin-left: 22%;
+    font-size: 14px;
   
   }
   
